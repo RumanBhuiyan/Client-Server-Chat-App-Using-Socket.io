@@ -1,0 +1,106 @@
+::-webkit-input-placeholder {
+  color: #d9643a;
+  font-family: Dank Mono;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+::selection {
+  color: #2c7744;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #11998e, #38ef7d);
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #1f242d;
+}
+#header {
+  color: #d9643a;
+  font-family: Cambria;
+  font-weight: bold;
+  font-size: 40px;
+  font-style: italic;
+  margin-left: 39%;
+  margin-top: 5%;
+}
+#header:hover {
+  font-style: normal;
+}
+#name {
+  margin-left: 2%;
+  margin-top: 20%;
+  color: #efbb35;
+  background-color: #1f242d;
+  width: 95%;
+  height: 40px;
+  font-family: Dank Mono;
+  font-weight: bold;
+  font-size: 18px;
+  outline: 2px solid black;
+}
+#message {
+  margin-left: 2%;
+  margin-top: 20px;
+  color: #efbb35;
+  background-color: #1f242d;
+  height: 40px;
+  width: 95%;
+  font-family: Dank Mono;
+  font-weight: bold;
+  font-size: 18px;
+  outline: 2px solid black;
+}
+#name:focus {
+  box-shadow: -2px 1px 4px 10px #2c7744;
+}
+#message:focus {
+  box-shadow: -2px 1px 4px 10px #2c7744;
+}
+button {
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 2%;
+  margin-top: 20px;
+  width: 95%;
+  height: 50px;
+  font-family: Cambria;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background: linear-gradient(to bottom, #ff512f, #dd2476);
+  border-radius: 12px;
+  outline: none;
+  border: none;
+}
+button:hover {
+  background: #2c7744;
+  color: black;
+  box-shadow: 9px 17px 85px 24px #dd2476;
+}
+.chat {
+  text-align: center;
+  display: block;
+  margin-left: 2%;
+  color: #efbb35;
+  font-family: Cambria;
+  font-size: 25px;
+  font-weight: bold;
+  outline: 2px solid #2c7744;
+  background: black;
+}
+.strong {
+  font-family: cooper;
+  color: #2c7744;
+}
